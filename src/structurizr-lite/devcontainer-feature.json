@@ -7,7 +7,7 @@
     "containerEnv": {
         "PATH": "/usr/local/structurizr-lite:${PATH}"
     },    
-    "installsAfter": [
+    "dependsOn": [
         "ghcr.io/devcontainers/features/java:1"
     ],
     "customizations": {
